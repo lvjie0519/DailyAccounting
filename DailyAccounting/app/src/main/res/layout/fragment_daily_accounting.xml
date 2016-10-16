@@ -1,12 +1,127 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.project.dailyaccounting.view.fragment.DailyAccountingFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:background="@drawable/linearlayout_frame_circle"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/pic_person_image_default"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016年10月16日 星期日"
+                android:textSize="14sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="今日已花费金额：200元"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_main_accounting"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:background="@drawable/pic_accounting"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_main_accounting"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="记账"
+            android:textSize="15sp"
+            android:textColor="@color/text_black"
+            />
+
+        <ImageView
+            android:id="@+id/iv_main_check_running_water"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:background="@drawable/pic_check_runnning_water"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_main_check_running_water"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="查看流水"
+            android:textSize="15sp"
+            android:textColor="@color/text_black"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_main_analysis_report"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:background="@drawable/pic_analysis_report"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_main_analysis_report"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="分析报告"
+            android:textSize="15sp"
+            android:textColor="@color/text_black"
+            />
+        <ImageView
+            android:id="@+id/iv_main_alarm_clock"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:background="@drawable/pic_alarm_clock"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_main_alarm_clock"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="我的闹钟"
+            android:textSize="15sp"
+            android:textColor="@color/text_black"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

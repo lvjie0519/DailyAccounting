@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 实现功能： 边框  上部分为圆角，下部分为直角 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- 内部颜色  灰色-->
+    <!--<solid android:color="#f0f1f2" /> -->
+    <!-- 圆角 -->
+    <corners 
+        android:radius="8dp" />
+    <!-- 边框颜色 -->
+    <stroke  
+        android:width="0.1dp"
+        android:color="#b8b8b7" />
+
+</shape>

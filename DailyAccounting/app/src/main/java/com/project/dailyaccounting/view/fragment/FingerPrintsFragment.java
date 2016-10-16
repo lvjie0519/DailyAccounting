@@ -34,7 +34,7 @@ public class FingerPrintsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_daily_accounting, container, false);
+        View view = inflater.inflate(R.layout.fragment_finger_prints, container, false);
         return view;
     }
 
