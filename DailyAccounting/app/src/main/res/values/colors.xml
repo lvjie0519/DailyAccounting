@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 主页面颜色 -->
+    <color name="main_btn_select">#00FFFF</color>
+    <color name="main_btn_unselect">#00E3E3</color>
+
+    <!-- 字体颜色的设置 -->
+    <color name="text_gray">#636363</color>
+    <color name="text_green">#b2d77a</color>
+    <color name="text_black">#434343</color>
+    <color name="text_black_deep">#000000</color>
+    <color name="text_blue">#50acd5</color>
+    <color name="text_white">#ffffff</color>
+    <color name="text_green_deep">#06ff01</color>
+
+</resources>
